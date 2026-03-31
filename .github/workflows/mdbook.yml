@@ -45,7 +45,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: 自动生成目录
         run: |
-          ~/.cargo/bin/book-summary -y -n ./witchgci
+          ~/.cargo/bin/book-summary -y -n ./
           awk 'NR==2{print; print "- [前言](README.md)"; next}1' SUMMARY.md > tmp && mv tmp SUMMARY.md
       - name: 生成页面
         run: ~/.cargo/bin/mdbook build
