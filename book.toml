@@ -1,0 +1,11 @@
+[book]
+authors = ["Moon-of-Noon"]
+language = "zh-CN"
+src = ""
+title = "WitchGci"
+
+[output.html]
+no-section-label = true
+
+[output.html.print]
+enable = false
