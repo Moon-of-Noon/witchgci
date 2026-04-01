@@ -6,6 +6,11 @@ title = "WitchGci"
 
 [output.html]
 no-section-label = true
+git-repository-url = "https://github.com/Moon-of-Noon/witchgci"
 
 [output.html.print]
 enable = false
+
+[output.html.fold]
+enable = true
+level = 10
