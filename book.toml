@@ -2,7 +2,7 @@
 authors = ["Moon-of-Noon"]
 language = "zh-CN"
 src = ""
-title = "WitchGci"
+title = "Witchgci"
 
 [output.html]
 no-section-label = true
