@@ -29,7 +29,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MDBOOK_VERSION: 0.4.44
+      MDBOOK_VERSION: 0.4.52
     steps:
       - uses: actions/checkout@v4
       - name: 启用缓存
@@ -40,6 +40,7 @@ jobs:
           rustup update
           cargo install --version ${MDBOOK_VERSION} mdbook
           cargo install --git https://github.com/HoiGe/book-summary.git --rev 8aae2527e0234d233cc9a1952cbcc011fb256e95 book-summary
+          cargo install --git https://github.com/HoiGe/mdbook-chapter-list.git --rev d3897798e03a97bb666de4aad0e82d77b1110fbd mdbook-chapter-list
       - name: 初始化 Page
         id: pages
         uses: actions/configure-pages@v5
