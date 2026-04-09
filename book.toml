@@ -3,6 +3,7 @@ authors = ["Moon-of-Noon"]
 language = "zh-CN"
 src = ""
 title = "Witchgci"
+site-url = "/witchgci/"
 
 [output.html]
 no-section-label = true
@@ -14,3 +15,5 @@ enable = false
 [output.html.fold]
 enable = true
 level = 10
+
+[preprocessor.chapter-list]
