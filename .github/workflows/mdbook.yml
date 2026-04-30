@@ -22,7 +22,7 @@ jobs:
     env:
       MDBOOK_VERSION: 0.4.52
       BOOK_SUMMARY_REV: 4aeb6b4dbde38abc6a616f53d3f14056959a2a10
-      CHAPTER_LIST_REV: deeffe04edde297e163c91d63eeffbb8298ba65d
+      CHAPTER_LIST_REV: b408e11083c9f0fcaba2d4f32a1429f15784d2ba
     steps:
       - name: 检出仓库
         uses: actions/checkout@v6
